@@ -3,30 +3,10 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('code') {
             steps {
                 echo 'Hello World'
             }
         }
-        stage('test') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('code quality') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('code security') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-         stage('app deploy') {
-                    steps {
-                        echo 'Hello World'
-                    }
-                }
     }
 }
